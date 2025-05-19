@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded",function(){
     investmentInput.addEventListener("input",function(){
         updateInvestmentValue(this.value);
     });
+    
 
     interestRateInput.addEventListener("input",function(){
         upadteInterestRateValue(this.value);
